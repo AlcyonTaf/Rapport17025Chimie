@@ -1,0 +1,144 @@
+<w:tc xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+  <w:tcPr>
+    <w:cnfStyle w:val="001000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+    <w:tcW w:w="9628" w:type="dxa"/>
+    <w:gridSpan w:val="2"/>
+    <w:tcBorders>
+      <w:top w:val="single" w:sz="4" w:space="0" w:color="999999" w:themeColor="text1" w:themeTint="66"/>
+      <w:bottom w:val="single" w:sz="4" w:space="0" w:color="999999" w:themeColor="text1" w:themeTint="66"/>
+    </w:tcBorders>
+    <w:vAlign w:val="center"/>
+  </w:tcPr>
+  <w:p w14:paraId="2B587657" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00000000" w:rsidP="000B573A">
+    <w:pPr>
+      <w:jc w:val="center"/>
+      <w:rPr>
+        <w:sz w:val="20"/>
+      </w:rPr>
+    </w:pPr>
+    <w:bookmarkStart w:id="24" w:name="BkTabEssais_ConditionsDemandees"/>
+    <w:r>
+      <w:rPr>
+        <w:sz w:val="20"/>
+      </w:rPr>
+      <w:t>N/A</w:t>
+    </w:r>
+    <w:bookmarkEnd w:id="24"/>
+  </w:p>
+</w:tc>
+
+<w:tc xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+  <w:tcPr>
+    <w:cnfStyle w:val="001000000000" w:firstRow="0" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+    <w:tcW w:w="9628" w:type="dxa"/>
+    <w:gridSpan w:val="2"/>
+    <w:tcBorders>
+      <w:top w:val="single" w:sz="4" w:space="0" w:color="999999" w:themeColor="text1" w:themeTint="66"/>
+      <w:bottom w:val="single" w:sz="12" w:space="0" w:color="7F7F7F" w:themeColor="text1" w:themeTint="80"/>
+    </w:tcBorders>
+    <w:vAlign w:val="center"/>
+  </w:tcPr>
+  <w:tbl>
+    <w:tblPr>
+      <w:tblW w:w="5000" w:type="pct"/>
+      <w:tblBorders>
+        <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+        <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+      </w:tblBorders>
+      <w:tblLayout w:type="fixed"/>
+      <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="4701"/>
+      <w:gridCol w:w="4701"/>
+    </w:tblGrid>
+    <w:tr w:rsidR="00DE0593" w14:paraId="7A9FD8AC" w14:textId="77777777">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="4701" w:type="dxa"/>
+        </w:tcPr>
+        <w:p w14:paraId="608336FD" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00000000" w:rsidP="000B573A">
+          <w:pPr>
+            <w:jc w:val="center"/>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+            <w:t>Items de l'essai</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="4701" w:type="dxa"/>
+        </w:tcPr>
+        <w:p w14:paraId="24E1845E" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00000000" w:rsidP="000B573A">
+          <w:pPr>
+            <w:jc w:val="center"/>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+            <w:t>NA</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+    <w:tr w:rsidR="00DE0593" w14:paraId="78F0E8CB" w14:textId="77777777">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="4701" w:type="dxa"/>
+        </w:tcPr>
+        <w:p w14:paraId="6148261C" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00000000" w:rsidP="000B573A">
+          <w:pPr>
+            <w:jc w:val="center"/>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+            <w:t>I22000059</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="4701" w:type="dxa"/>
+        </w:tcPr>
+        <w:p w14:paraId="27EAE21B" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00C6407B" w:rsidP="000B573A">
+          <w:pPr>
+            <w:jc w:val="center"/>
+            <w:rPr>
+              <w:sz w:val="20"/>
+            </w:rPr>
+          </w:pPr>
+        </w:p>
+      </w:tc>
+    </w:tr>
+  </w:tbl>
+  <w:p w14:paraId="4D1F9C6C" w14:textId="77777777" w:rsidR="00C6407B" w:rsidRDefault="00C6407B" w:rsidP="000B573A">
+    <w:pPr>
+      <w:jc w:val="center"/>
+      <w:rPr>
+        <w:sz w:val="20"/>
+      </w:rPr>
+    </w:pPr>
+    <w:bookmarkStart w:id="25" w:name="BkTabEssais_ConditionsEssais"/>
+    <w:bookmarkEnd w:id="25"/>
+  </w:p>
+</w:tc>

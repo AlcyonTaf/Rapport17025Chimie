@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import pandas
+import pandas as pd
 from docx.document import Document
 
 try:
@@ -31,8 +32,8 @@ except TypeError:
 # Variables #
 #############
 '''
-nbr_tableau_fixe = 5  # PAs util, Nbr de tableau qui ne bouge pas, c'est a dire qui ne sont pas des tableau d'essais
-list_row_nested_tab_essais = [7, 9, 11] # Emplacement des tableau imbriqué dans les tableaux essais
+nbr_tableau_fixe = 5  # PAs util, Nbr de tableau qui ne bouge pas, c'est-à-dire qui ne sont pas des tableaux d'essais
+list_row_nested_tab_essais = [4, 7, 9, 11]  # Emplacement des tableaux imbriqué dans les tableaux essais
 
 ''''
  Fonction
@@ -45,23 +46,44 @@ def iter_tables_with_table(table):
                 yield nested_table
                 yield from iter_tables_with_table(nested_table)
 
+
 def format_tab_essais(table):
     """
         Reçoit en entré le tableau d'essai et effectue toutes les mises en forme
     """
     print(len(table.rows))
     # les tableau imbriqué sont toujours au même position, mais parfois il ne sont pas présent
-    for nested in iter_tables_with_table(table):
-        print("found a nested table %s" % nested)
-        #nested._element.getparent().remove(nested._element)
-
-
-
     for x in list_row_nested_tab_essais:
-        for cell in table.rows[x].cells:
-            print(len(cell.tables))
+        # Check if table exist
+        if table.cell(x, 0).tables:
+            nested_table = table.cell(x, 0).tables[0]
+            print("table ok")
+            # Code trouvé sur stackoverflow : https://stackoverflow.com/questions/58254609/python-docx-parse-a-table-to-panda-dataframe
+            df = [['' for i in range(len(nested_table.columns))] for j in range(len(nested_table.rows))]
+            for y, row in enumerate(nested_table.rows):
+                for j, cell in enumerate(row.cells):
+                    if cell.text:
+                        df[y][j] = cell.text
+
+            data = pd.DataFrame(df)
+            print(data)
+
+            # Ici on a récupérer les datas de la table, on va supprimer le tableau
+            nested_table._element.getparent().remove(nested_table._element)
+
+            # Ensuite ont créé les nouveaux tableaux
+            table.cell(x,0).split()
 
 
+
+
+        else:
+            print('pas de table')
+
+        # print(len(table.cell(i, 0).tables))
+        # print(table.cell(x,0).text)
+        # print(table.cell(9,0)._tc.xml)
+        # print(table.cell(7,0))
 
 
 # Press the green button in the gutter to run the script.
@@ -103,6 +125,5 @@ if __name__ == '__main__':
     #     data.append(row_data)
     #
     # print(data)
-
 
     doc.save('Test.docx')
