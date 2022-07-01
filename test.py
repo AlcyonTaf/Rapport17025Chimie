@@ -1,15 +1,16 @@
 import docx.document
 from docx.document import Document
+
 try:
     document = Document()
 except TypeError:
     from docx import Document
+
     document = Document()
-from docx.oxml.table import CT_Tbl
+from docx.oxml.table import CT_Tbl, CT_Row
 from docx.oxml.text.paragraph import CT_P
 from docx.table import _Cell, Table
 from docx.text.paragraph import Paragraph
-
 
 
 def iter_block_items(parent):
@@ -37,10 +38,23 @@ def iter_block_items(parent):
             #         yield from iter_block_items(cell)
 
 
+def insert_row(table, ix):
+    tbl = table._tbl
+    successor = tbl.tr_lst[ix]
+    tr = tbl._new_tr()
+    w = 0
+    for gridCol in tbl.tblGrid.gridCol_lst:
+        w += gridCol.w
+        #tc = tr.add_tc()
+        #tc.width = gridCol.w
+    tc = tr.add_tc()
+    tc.width = w
+    successor.addprevious(tr)
+    return table.rows[ix]
 
-doc = Document("./TestWord/SansMacro.docx")
+
+doc = Document("./TestWord/simpletableau.docx")
 print(type(doc))
-
 
 for i, block in enumerate(iter_block_items(doc)):
     print('i= ' + str(i) + ' ' + str(type(block)))
@@ -51,3 +65,10 @@ for i, block in enumerate(iter_block_items(doc)):
         print('Table')
         print(len(block.rows))
 
+        for x, row in enumerate(block.rows):
+            print('x: ' + str(x))
+            print(row._tr.xml)
+
+        insert_row(block,2)
+
+doc.save('testtable.docx')
